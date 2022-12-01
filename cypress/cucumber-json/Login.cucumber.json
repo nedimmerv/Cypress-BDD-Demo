@@ -1,0 +1,63 @@
+[
+  {
+    "description": "    As a User I should be able to login and logout to Portal",
+    "keyword": "Feature",
+    "name": "Login to Portal HICSE",
+    "line": 1,
+    "id": "login-to-portal-hicse",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "login-to-portal-hicse;login-to-portal-1",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Login to Portal 1",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User navigates to HICSE Portal",
+            "result": {
+              "status": "passed",
+              "duration": 1265000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User enters the Username \"qa.admin@hitachivantara.com\" and Password \"test123\"",
+            "result": {
+              "status": "passed",
+              "duration": 2245000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User checks the Remember me Button and clicks on Login button",
+            "result": {
+              "status": "passed",
+              "duration": 147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User verifies \"Sessions\" on the Sessions Page",
+            "result": {
+              "status": "passed",
+              "duration": 889000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
